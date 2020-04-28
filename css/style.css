@@ -1,0 +1,74 @@
+    /* Bu css dökümanı Tolga Cengiz tarfından kodlanmıştır. */
+    /*Genel */
+
+    body { 
+        display: block;
+        font-size: 14px Georgia; 
+        margin: 0; 
+        background: no-repeat url("../assets/layer7.png");
+        background-position-x: center; 
+    }
+
+    ul, li, ol, table, tr, td, h1, h2, h3, h4, h5, h6, p, form, input, select, textarea, button, image { 
+        padding: 0; 
+        margin: 0;
+        border: 0; 
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
+
+    *:focus {
+        outline: 0
+    }
+
+    .clear {
+        clear: both;
+    }  
+
+    #main {
+        display: flow-root;
+        width: 20% ;
+       
+        }
+
+    /* Header */
+    #header {
+        
+        position: absolute ;
+            
+    }
+
+    /* Logo */
+    .logo {
+        position: relative; 
+        top: 35px;
+    }
+    /* menu */
+    .menu {
+        position: absolute;
+        }
+
+    .menu.start {
+        float: right; 
+        top: 68 px; 
+        left: 70px;
+        }
+    .menu.end {
+        float: right;
+        top: 68 px; 
+        left: 70px;
+       
+        }
+    .menu ul li  { 
+        
+        font-size: 18px;
+        width: 110px;
+        text-align: center;
+      
+        }      
+    .menu ul li a {
+        color: #4d4959;
+        display: inline-block;
+        }
